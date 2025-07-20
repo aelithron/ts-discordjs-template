@@ -1,0 +1,28 @@
+{
+  "name": "ts-discordjs-template",
+  "version": "1.0.0",
+  "description": "A discord.js template for TypeScript.",
+  "keywords": [
+    "discordjs",
+    "template",
+    "discordbot",
+    "discord",
+    "bot",
+    "typescript"
+  ],
+  "homepage": "https://github.com/aelithron/ts-discordjs-template#readme",
+  "bugs": {
+    "url": "https://github.com/aelithron/ts-discordjs-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aelithron/ts-discordjs-template.git"
+  },
+  "license": "MIT",
+  "author": "Aelithron",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
