@@ -1,0 +1,34 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": [],
+			"label": "npm: dev",
+			"detail": "Runs the bot's code directly."
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build",
+			"detail": "Compiles the TypeScript code into JavaScript."
+		},
+		{
+			"type": "npm",
+			"script": "deploycmds",
+			"problemMatcher": [],
+			"label": "npm: deploycmds",
+			"detail": "Deploys bot commands."
+		},
+		{
+			"type": "npm",
+			"script": "start",
+			"problemMatcher": [],
+			"label": "npm: start",
+			"detail": "Starts the compiled code. (run build first!)"
+		}
+	]
+}

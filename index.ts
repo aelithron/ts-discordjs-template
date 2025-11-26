@@ -6,7 +6,8 @@ import fs from 'node:fs';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 dotenv.config({ quiet: true });
 
-const client: Client<boolean> = new Client({ intents: [GatewayIntentBits.Guilds] });
+const client = new Client({ intents: [GatewayIntentBits.Guilds] }) as ClientWithCommands;
+client.commands = await loadCommands();
 client.once(Events.ClientReady, (readyClient: Client<true>) => {
 	console.log(`[bot] Ready - Logged in (${readyClient.user.tag})`);
 });

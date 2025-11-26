@@ -4,7 +4,7 @@ import path from 'node:path';
 import dotenv from 'dotenv';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import type { Command } from './bot.js';
-dotenv.config();
+dotenv.config({ quiet: true });
 
 const token = process.env.TOKEN;
 const clientId = process.env.CLIENT_ID;
