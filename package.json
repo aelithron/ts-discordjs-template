@@ -29,7 +29,7 @@
     "deploycmds": "tsx deploycmds.ts"
   },
   "dependencies": {
-    "discord.js": "^14.26.2"
+    "discord.js": "^14.27.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
